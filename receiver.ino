@@ -1,4 +1,4 @@
-#include <VirtualWire.h>    // you must download and install the VirtualWire.h to your hardware/libraries folder
+#include <VirtualWire.h>
 #undef int
 #undef abs
 #undef double
@@ -11,9 +11,9 @@ void setup()
 
 // Initialise the IO and ISR
     vw_set_ptt_inverted(true);    // Required for RX Link Module
-    vw_setup(2000);                   // Bits per sec
-    vw_set_rx_pin(4);           // We will be receiving on pin 4 i.e the RX pin from the module connects to this pin. 
-    vw_rx_start();                      // Start the receiver 
+    vw_setup(2000);               // Bits per sec
+    vw_set_rx_pin(4);             // We will be receiving on pin 4 i.e the RX pin from the module connects to this pin. 
+    vw_rx_start();                // Start the receiver 
 }
 
 void loop()

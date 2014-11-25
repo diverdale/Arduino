@@ -18,10 +18,10 @@ void setup()
     PORTB |= B11111111;      // enable pullups on pins 8 to 13
     pinMode(13,OUTPUT);  
 	digitalWrite(13, HIGH);
-     // Initialise the IO and ISR
-    //vw_set_ptt_inverted(true); // Required for RF Link module
+    // Initialise the IO and ISR
+    //vw_set_ptt_inverted(true);    // Required for RF Link module
     vw_setup(2000);                 // Bits per sec
-    vw_set_tx_pin(3);                // pin 3 is used as the transmit data out into the TX Link module, change this as per your needs  
+    vw_set_tx_pin(3);               // pin 3 is used as the transmit data out into the TX Link module, change this as per your needs  
 }
 
 void sleepNow(void)
