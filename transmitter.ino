@@ -17,7 +17,7 @@ void setup()
     PORTD |= B11111100;      // enable pullups on pins 2 to 7, leave pins 0 and 1 alone
     PORTB |= B11111111;      // enable pullups on pins 8 to 13
     pinMode(13,OUTPUT);  
-	digitalWrite(13, HIGH);
+    digitalWrite(13, HIGH);
     // Initialise the IO and ISR
     //vw_set_ptt_inverted(true);    // Required for RF Link module
     vw_setup(2000);                 // Bits per sec
