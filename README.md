@@ -1,0 +1,3 @@
+This is where I will publish files related to my Arduino
+home automation / monitoring system.  This code is public 
+domain and comes with absolutely NO warranty...
