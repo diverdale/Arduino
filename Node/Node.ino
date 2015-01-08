@@ -1,6 +1,6 @@
 /*Generic Sensor Node Sketch
 //Jan 2015 -- Dale Wright
-//
+//Jan 7 2015 - added power saving code
 */
 
 /* Start Includes */
